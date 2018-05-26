@@ -3,13 +3,13 @@ Criação de um sistema de recomendações por soma euclidiana usando a linguage
 
 primeira parte é criada uma "biblioteca" com as avaliações do usuátio
 
-  Usuario = {'Ana': 
-      {'Freddy x Jason': 2.5, 
-       'O Ultimato Bourne': 3.5,
-       'Star Trek': 3.0, 
-       'Exterminador do Futuro': 3.5, 
-       'Norbit': 2.5, 
-       'Star Wars': 3.0},
+    Usuario = {'Ana': 
+        {'Freddy x Jason': 2.5, 
+         'O Ultimato Bourne': 3.5,
+         'Star Trek': 3.0, 
+         'Exterminador do Futuro': 3.5, 
+         'Norbit': 2.5, 
+         'Star Wars': 3.0},
 
       'Marcos': 
       {'Freddy x Jason': 3.0, 
@@ -56,12 +56,12 @@ primeira parte é criada uma "biblioteca" com as avaliações do usuátio
   
 Segunda parte criamos as avaliações dos filmes
 
-  Filme = {'Freddy x Jason': 
-      {'Ana': 2.5, 
-       'Marcos:': 3.0 ,
-       'Pedro': 2.5, 
-       'Adriano': 3.0, 
-       'Janaina': 3.0 },
+    Filme = {'Freddy x Jason': 
+        {'Ana': 2.5, 
+         'Marcos:': 3.0 ,
+         'Pedro': 2.5, 
+         'Adriano': 3.0, 
+         'Janaina': 3.0 },
 
      'O Ultimato Bourne': 
       {'Ana': 3.5, 
@@ -102,15 +102,16 @@ Segunda parte criamos as avaliações dos filmes
        'Claudia': 4.5, 
        'Adriano': 3.0, 
        'Janaina': 3.0}
-  }
+    }
 
-  from math import sqrt
+    from math import sqrt
   
 Depois o código com os cauculos euclidianos:
-  def euclidiana(base, usuario1, usuario2):
-      si = {}
-      for item in base[usuario1]:
-         if item in base[usuario2]: si[item] = 1
+
+    def euclidiana(base, usuario1, usuario2):
+        si = {}
+        for item in base[usuario1]:
+           if item in base[usuario2]: si[item] = 1
 
       if len(si) == 0: return 0
 
