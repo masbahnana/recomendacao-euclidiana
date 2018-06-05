@@ -106,7 +106,7 @@ Segunda parte criamos as avaliações dos filmes
 
     from math import sqrt
   
-Depois o código com os cauculos euclidianos:
+Depois o código com os calculos euclidianos:
 
     def euclidiana(base, usuario1, usuario2):
         si = {}
