@@ -2,7 +2,7 @@
 Criação de um sistema de recomendações por soma euclidiana usando a linguagem python.
 
 primeira parte é criada uma "biblioteca" com as avaliações do usuátio
-
+```Python
     Usuario = {'Ana': 
         {'Freddy x Jason': 2.5, 
          'O Ultimato Bourne': 3.5,
@@ -52,10 +52,10 @@ primeira parte é criada uma "biblioteca" com as avaliações do usuátio
                'Norbit':1.0,
          'Exterminador do Futuro':4.0}
     }
-  
+  ```
   
 Segunda parte criamos as avaliações dos filmes
-
+```Python
     Filme = {'Freddy x Jason': 
         {'Ana': 2.5, 
          'Marcos:': 3.0 ,
@@ -103,10 +103,12 @@ Segunda parte criamos as avaliações dos filmes
        'Adriano': 3.0, 
        'Janaina': 3.0}
     }
-
-    from math import sqrt
-  
+    
+  ```
 Depois o código com os calculos euclidianos:
+
+```Python
+from math import sqrt
 
     def euclidiana(base, usuario1, usuario2):
         si = {}
@@ -182,3 +184,4 @@ Depois o código com os calculos euclidianos:
         rankings.sort()
         rankings.reverse()
         return rankings
+```
