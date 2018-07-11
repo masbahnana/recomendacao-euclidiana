@@ -1,7 +1,7 @@
 # recomendacao-euclidiana
 Criação de um sistema de recomendações por soma euclidiana usando a linguagem python.
 
-primeira parte é criada uma "biblioteca" com as avaliações do usuátio
+primeira parte é criada uma "biblioteca" com as avaliações do usuário
 ```Python
     Usuario = {'Ana': 
         {'Freddy x Jason': 2.5, 
